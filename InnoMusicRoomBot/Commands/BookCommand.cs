@@ -161,6 +161,8 @@ namespace InnoMusicRoomBot.Commands
         {
             switch (status)
             {
+                case "owner":
+                    return 999;
                 case "Lord":
                     return 15;
                 case "Senior":
@@ -181,6 +183,8 @@ namespace InnoMusicRoomBot.Commands
         {
             switch (status)
             {
+                case "owner":
+                    return 999;
                 case "Lord":
                     return 150;
                 case "Senior":

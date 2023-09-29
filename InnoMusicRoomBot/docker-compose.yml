@@ -1,0 +1,11 @@
+﻿version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./appsettings.json:/app/appsettings.json
+      - ./usersettings.json:/app/usersettings.json
+      - ./musroom.db:/app/musroom.db
