@@ -3,7 +3,7 @@
 services:
   app:
     build:
-      context: .
+      context: InnoMusicRoomBot
       dockerfile: Dockerfile
     volumes:
       - ./appsettings.json:/app/appsettings.json
